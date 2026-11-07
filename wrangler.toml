@@ -4,9 +4,9 @@ main = "src/worker.jsx"
 compatibility_date = "2024-07-24"
 compatibility_flags = ["nodejs_compat"]
 
-kv_namespaces = [
-  { binding = "SUBLINK_KV", id = "931c2ecfdac94067a0369ebe391debf1" }
-]
+[[kv_namespaces]]
+binding = "SUBLINK_KV"
+id = "931c2ecfdac94067a0369ebe391debf1"
 
 [assets]
 directory = "./public"
